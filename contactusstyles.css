@@ -1,0 +1,90 @@
+/* CONTACT US CSS */
+
+body {
+    padding: 10px 5% 10px 10%;
+}
+
+.faq, .contact {
+    display:inline-block;
+    width: 49%;
+    height: auto;
+    margin:0;
+    vertical-align: top; /* Add this line */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    text-align: center;
+    margin: 40px 0;
+}
+
+main{
+
+    align-items: center;
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+li.question{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.question h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: blueviolet;
+
+}
+
+li.question p{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: none;
+}
+
+li.question:hover p {
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li.question:hover h2 {
+    text-decoration: none;
+    color:rgba(137, 43, 226, 0.507);
+}
+
+img{
+    width: 150px;
+    height: auto;
+    padding: 0 27%;
+
+}
+
+.con{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.email_icon, .phone_icon, .instagram_icon, .x_icon{
+    display: inline-block;
+    width:49%;
+}
+
+.box1{
+    margin-bottom:20px;
+}
